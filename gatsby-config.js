@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Exploring Economic Indicators`,
+    description: `Use Plotly for exploratory visualization of world development indicators.`,
+    author: `Kimberley Elcess`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
