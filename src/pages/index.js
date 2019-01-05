@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
-import { css } from '@emotion/core'
-import { rhythm } from '../utils/typography'
-import Layout from '../components/layout'
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import { css } from '@emotion/core';
+import { rhythm } from '../utils/typography';
+import Layout from '../components/layout';
 
 export default ({ data }) => {
-  console.log(data)
+  console.log(data);
   return (
     <Layout>
       <div>
@@ -45,10 +45,26 @@ export default ({ data }) => {
             </Link>
           </div>
         ))}
+        <h4>Plots</h4>
+        <Link
+          to="/GNI"
+          css={css`
+            text-decoration: none;
+            color: inherit;
+          `}
+        >
+          <h3
+            css={css`
+              margin-bottom: ${rhythm(1 / 4)};
+            `}
+          >
+            Gross National Income by Income Level
+          </h3>{' '}
+        </Link>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query {
@@ -69,4 +85,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

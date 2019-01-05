@@ -57,9 +57,3 @@ export const makeScatter = (xValues, yValues, countries) => {
 
   return traces;
 };
-
-// const years = Object.values(this.props.gni.WDI.dimension.year.category.label);
-// const gniValues = Object.values(this.props.gni.WDI.value);
-// const countries = Object.values(
-//   this.props.gni.WDI.dimension.country.category.label
-// );
