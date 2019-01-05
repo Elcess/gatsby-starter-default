@@ -80,6 +80,23 @@ export default ({ data }) => {
             </h3>{' '}
           </Link>
         </div>
+        <div>
+          <Link
+            to="/Fertility-GNI"
+            css={css`
+              text-decoration: none;
+              color: inherit;
+            `}
+          >
+            <h3
+              css={css`
+                margin-bottom: ${rhythm(1 / 4)};
+              `}
+            >
+              Fertility vs GNI per Capita
+            </h3>{' '}
+          </Link>
+        </div>
       </div>
     </Layout>
   );
