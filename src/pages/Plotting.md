@@ -12,7 +12,7 @@ A picture may be worth a thousand words, but it's certainly worth thousands of d
 
 ### Why Plotly?
 
-Plotly is a JavaScript package that makes interactive plots right out of the box. The only other package it requires is `react-plotly`, so you don't need to install a lot of packages to make it work with your web app. There are lots of types of plots available, from the simple to the statistical, and they can all show the underlying data when you hover over individual points. There are other options out there, such as the Plot function from stdlib.js. I found Plotly easier to work with, though, so that's the package I've chosen for this post.
+Plotly is a JavaScript package that makes interactive plots right out of the box. The only other package it requires is `react-plotly`, so you don't need to install a lot of packages to make it work with your web app. There are many types of plots available, from the simple to the statistical, and they can all show the underlying data when you hover over individual points. There are other options out there, such as the Plot function from stdlib.js. I found Plotly easier to work with, though, so that's the package I've chosen for this post.
 
 ### Installation
 
@@ -22,9 +22,9 @@ Now install `plotly.js` and `react-plotly.js`. Use the starter code example at h
 
 ### Getting the data
 
-Data is available everywhere, but for this demo I turned to the World Bank's World Development Indicators https://databank.worldbank.org/data/source/world-development-indicators. Their developers' guide (https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information) tells you how to retrieve data as XML, JSON, or jsonstat. I chose to copy the jsonstat-formatted data from the results page into separate JSON files, although you can download it as well. Simply `import` the resulting JSON file(s) to use the data.
+Data is available everywhere, but for this demo I turned to the World Bank's World Development Indicators https://databank.worldbank.org/data/source/world-development-indicators. Their developers' guide (https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information) tells you how to retrieve data as XML, JSON, or jsonstat. I chose to copy the jsonstat-formatted data from the results page into JSON files, one for each query, although you can download it as well. Simply `import` the resulting JSON file(s) to use the data.
 
-While the documentation indicates you can get multiple indicators with a single query, I found that to be true only when asking for a single country or region. Because I wanted data for multiple regions, I requested a single indicator for each query and saved the jsonstat to separate files that I later required or imported into my JavaScript. The jsonstat format returns a single object with the first key of "WDI" when the source is World Development Indicators.
+While the documentation shows retrieving multiple indicators with a single query, I found that to be possible only when asking for a single country or region. Because I wanted data for multiple regions, I requested a single indicator for each query and saved the jsonstat to separate files that I later required or imported into my JavaScript. The jsonstat format returns a single object with the first key of "WDI" when the source is World Development Indicators.
 
 If you use your own data, just be aware that Plotly expects all `x` values to be in a single array of individual numbers or strings and all `y` values to be in a separate single array.
 
