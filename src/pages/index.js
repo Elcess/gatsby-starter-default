@@ -46,21 +46,40 @@ export default ({ data }) => {
           </div>
         ))}
         <h4>Plots</h4>
-        <Link
-          to="/GNI"
-          css={css`
-            text-decoration: none;
-            color: inherit;
-          `}
-        >
-          <h3
+        <div>
+          <Link
+            to="/GNI"
             css={css`
-              margin-bottom: ${rhythm(1 / 4)};
+              text-decoration: none;
+              color: inherit;
             `}
           >
-            Gross National Income by Income Level
-          </h3>{' '}
-        </Link>
+            <h3
+              css={css`
+                margin-bottom: ${rhythm(1 / 4)};
+              `}
+            >
+              Gross National Income by Income Level
+            </h3>{' '}
+          </Link>
+        </div>
+        <div>
+          <Link
+            to="/Fertility"
+            css={css`
+              text-decoration: none;
+              color: inherit;
+            `}
+          >
+            <h3
+              css={css`
+                margin-bottom: ${rhythm(1 / 4)};
+              `}
+            >
+              Fertility by Income Level
+            </h3>{' '}
+          </Link>
+        </div>
       </div>
     </Layout>
   );
