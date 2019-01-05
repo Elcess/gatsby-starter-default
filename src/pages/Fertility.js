@@ -35,6 +35,7 @@ class Fertility extends React.Component {
               yaxis: { title: 'Children per Woman' },
             }}
           />
+          <h6>Source: World Bank, World Development Indicators</h6>
           <Link to="/">Go back to the homepage</Link>
         </Layout>
       );
