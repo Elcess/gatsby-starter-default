@@ -15,7 +15,7 @@ class GNI extends React.Component {
     };
   }
   render() {
-    if (this.state.gni) {
+    if (this.state.gni && typeof document !== 'undefined') {
       const years = Object.values(
         this.state.gni.WDI.dimension.year.category.label
       );

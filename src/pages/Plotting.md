@@ -8,6 +8,8 @@ author: 'Kimberley Elcess'
 
 A picture may be worth a thousand words, but it's certainly worth thousands of data points. Plotting your data makes it easier to see outliers and mistakes, easier to explain, and easier to understand. Best of all, you can do it on your website using JavaScript, opening up possibilities for interactivity.
 
+[See my example](../GNI)
+
 ### Why Plotly?
 
 Plotly is a JavaScript package that makes interactive plots right out of the box. The only other package it requires is `react-plotly`, so you don't need to install a lot of packages to make it work with your web app. There are lots of types of plots available, from the simple to the statistical, and they can all show the underlying data when you hover over individual points. There are other options out there, such as the Plot function from stdlib.js. I found Plotly easier to work with, though, so that's the package I've chosen for this post.
@@ -54,3 +56,5 @@ To recap, follow these steps to add a Plotly graphic to your web app.
 ### Conclusion
 
 Fire up your app and admire your handiwork. Hover over the traces to see the underlying data. Try the zoom features. Enjoy!
+
+[See mine](../GNI)
