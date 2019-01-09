@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Plotting Economic Indicators`,
-    description: 'Easy plots for JavaScript using Plotly, React, and Redux',
+    description: 'Easy plots for JavaScript using Plotly and React',
     author: 'Kimberley Elcess',
   },
   plugins: [
@@ -21,4 +21,4 @@ module.exports = {
       },
     },
   ],
-}
+};
