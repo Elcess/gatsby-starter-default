@@ -37,7 +37,11 @@ class GNI extends React.Component {
               xaxis: { title: 'Year', zeroline: false },
             }}
           />
-          <h6>Source: World Bank, World Development Indicators</h6>
+          <h6>Data Source: World Bank, World Development Indicators</h6>
+          <Link to="/Plotting-Gross-National-Income">
+            Go back to the article
+          </Link>{' '}
+          <br />
           <Link to="/">Go back to the homepage</Link>
         </Layout>
       );
