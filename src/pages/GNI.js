@@ -39,7 +39,11 @@ class GNI extends React.Component {
           />
           <h6>Data Source: World Bank, World Development Indicators</h6>
           <Link to="/Plotting-Gross-National-Income">
-            Go back to the article
+            Go back to "Plotting Gross National Income"
+          </Link>{' '}
+          <br />
+          <Link to="/Integrating-Plotly-with-Gatsby">
+            Go back to "Integrating Plotly with Gatsby"
           </Link>{' '}
           <br />
           <Link to="/">Go back to the homepage</Link>

@@ -35,7 +35,11 @@ class Fertility extends React.Component {
               yaxis: { title: 'Children per Woman' },
             }}
           />
-          <h6>Source: World Bank, World Development Indicators</h6>
+          <h6>Data Source: World Bank, World Development Indicators</h6>
+          <Link to="/Integrating-Plotly-with-Gatsby">
+            Go back to "Integrating Plotly with Gatsby"
+          </Link>{' '}
+          <br />
           <Link to="/">Go back to the homepage</Link>
         </Layout>
       );
