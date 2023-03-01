@@ -18,7 +18,7 @@
     "gatsby-plugin-typography": "^2.2.4",
     "gatsby-source-filesystem": "^2.0.12",
     "gatsby-transformer-remark": "^2.1.19",
-    "plotly.js": "^1.43.1",
+    "plotly.js": "^1.58.5",
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
